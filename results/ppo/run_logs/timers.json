@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1663153639",
+        "python_version": "3.8.8 (default, Apr 13 2021, 12:59:45) \n[Clang 10.0.0 ]",
+        "command_line_arguments": "/Users/trymbo/opt/anaconda3/bin/mlagents-learn --force",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1663153639"
+    },
+    "total": 0.7649422090000001,
+    "count": 1,
+    "self": 0.0029710420000002014,
+    "children": {
+        "run_training.setup": {
+            "total": 0.06808604200000001,
+            "count": 1,
+            "self": 0.06808604200000001
+        },
+        "TrainerController.start_learning": {
+            "total": 0.6938851249999999,
+            "count": 1,
+            "self": 4.5706999999839404e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 0.693817709,
+                    "count": 1,
+                    "self": 0.693817709
+                },
+                "TrainerController._save_models": {
+                    "total": 2.1709000000091905e-05,
+                    "count": 1,
+                    "self": 2.1709000000091905e-05
+                }
+            }
+        }
+    }
+}
